@@ -1,0 +1,15 @@
+{
+  "name": "wxtest",
+  "description": "wx test project",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@minui/wxc-abnor": "^1.0.5",
+    "@minui/wxc-toast": "^1.0.6"
+  }
+}

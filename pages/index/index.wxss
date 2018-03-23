@@ -1,0 +1,64 @@
+/* pages/index/index.wxss */
+page{
+  background-color: #00243D;
+}
+.headlogo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20rpx 0;
+}
+.headlogo text{
+  color: #fff;
+  font-size: 64rpx;
+  margin:24rpx 0;
+}
+.cards{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card{
+  width: 528rpx;
+  height: 222rpx;
+  margin-bottom: 40rpx;
+  border-radius: 20rpx;
+  color: #fff;
+  padding: 88rpx 68rpx;
+  box-shadow: 0rpx 4rpx 28rpx rgba(0, 0, 0, 0.5);
+}
+.card1{
+  background-size: 664rpx 398rpx;
+  background-image: url(http://8pxlab.su.bcebos.com/Card1.png?authorization=bce-auth-v1%2Fd3c919e52b2a476aa6cc12015d1d5c69%2F2018-02-08T06%3A59%3A39Z%2F-1%2Fhost%2F2df35e9b87ff85a9ea983d75376c461c81fbf5d57f73cdac1987f72c3ba480d8);
+}
+.card2{
+  background-size: 664rpx 398rpx;
+  background-image: url(http://8pxlab.su.bcebos.com/Card2.png?authorization=bce-auth-v1%2Fd3c919e52b2a476aa6cc12015d1d5c69%2F2018-02-08T07%3A00%3A20Z%2F-1%2Fhost%2F4b3190c3dfdb6aecf2415b656852af492c488fb02dcf7ddb14adcb63a4b8821b);
+}
+.num{
+  font-size: 32rpx;
+  display: block;
+  margin-bottom: 20rpx;
+}
+.mid{
+  display: flex;
+  align-items: center;
+  margin: 20rpx 0;
+}
+.tip{
+  width: 72rpx;
+  height: 52rpx;
+  background-color: #000;
+  border-radius: 16rpx;
+  text-align: center;
+  font-size: 28rpx;
+  font-weight: bold;
+  line-height: 52rpx;
+}
+.bigtitle{
+  font-size: 60rpx;
+  margin-left: 10rpx;
+}
+.title2{
+  font-size: 24rpx;
+}

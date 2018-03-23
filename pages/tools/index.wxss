@@ -1,0 +1,38 @@
+/* pages/tools/index.wxss */
+page{
+  background-color: #00243D;
+}
+.header{
+  color: #fff;
+  font-size: 64rpx;
+  font-weight: bold;
+  margin:8rpx 0 0 43rpx; 
+}
+.toolslist{
+  width: auto;
+  height: calc(100vh - 144rpx);
+  padding: 46rpx 0 0 21rpx; 
+}
+.toolslist .tool{
+  width: 310rpx;
+  height: 310rpx;
+  background-color: #fff;
+  border-radius: 16rpx;
+  float: left;
+  margin: 22rpx; 
+}
+.tool-cover{
+  width: 310rpx;
+  height: 250rpx;
+  border-radius: 16rpx 16rpx 0 0;
+  float: left;
+}
+.tool-name{
+  display: block;
+  width: 100%;
+  font-size: 36rpx;
+  line-height: 60rpx;
+  color: #2A364D;
+  font-weight: bold;
+  text-align: center;
+}

@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/regist/index",
+    "pages/tools/index",
+    "pages/content/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "backgroundColor": "#00243D",
+    "navigationBarBackgroundColor": "#00243D",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "dark"
+  }
+}

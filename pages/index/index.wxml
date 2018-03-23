@@ -1,0 +1,35 @@
+<!--pages/index/index.wxml-->
+<scroll-view scroll-y="true">
+
+<view class='headlogo'>
+  <image style="width: 173rpx; height: 115rpx; " mode="scaleToFill" src="http://8pxlab.su.bcebos.com/logo%402x.png?authorization=bce-auth-v1%2Fd3c919e52b2a476aa6cc12015d1d5c69%2F2018-02-06T11%3A26%3A56Z%2F-1%2Fhost%2F78563ec6794c70d64657238f1e9a49da55927947578e1bd6821b92a6256c7357&process=none"></image>
+   <text>8PXLAB</text>
+</view>
+
+<view class='cards'>
+
+  <navigator url="/pages/regist/index" >
+    <view class='card card1'>
+      <text class='num'>Exp.No1.</text>
+      <view class='mid'>
+        <text class='tip'>MK</text>
+        <text class='bigtitle'>DX Registration</text>
+      </view>
+      <text class='title2'>Face Recognition  Baidu Cloud Support</text>
+    </view>
+  </navigator>
+
+  <navigator url="/pages/tools/index" >
+    <view class='card card2'>
+      <text class='num'>Exp.No2.</text>
+      <view class='mid'>
+        <text class='tip'>MK</text>
+        <text class='bigtitle'>Design Tools</text>
+      </view>
+      <text class='title2'>Collected  by  Wendale</text>
+    </view>
+  </navigator>
+  
+</view>
+
+</scroll-view>

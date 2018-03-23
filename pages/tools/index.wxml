@@ -1,0 +1,10 @@
+<!--pages/tools/index.wxml-->
+<view class='header'>Design tools</view>
+<scroll-view scroll-y class='toolslist'>
+  <view class='tool' wx:for="{{ contents }}" wx:key="id">
+    <navigator url='/pages/content/index?content_id={{item.id}}'>
+      <image class='tool-cover' mode="scaleToFill" src='{{item.cover}}'></image>
+      <text class='tool-name'>{{item.title}}</text>
+    </navigator>
+  </view>
+</scroll-view>

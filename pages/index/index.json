@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "wxc-toast": "../../dist/packages/@minui/wxc-toast/dist/index",
+    "wxc-flex": "../../dist/packages/@minui/wxc-flex/dist/index"
+  }
+}

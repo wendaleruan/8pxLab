@@ -1,0 +1,6 @@
+<import src="../../wxParser/index.wxml"/>
+<view class='h1'>{{content.title}}</view>
+<view class='content-time'>{{content.created_at}}</view>
+<view class='wxParser'>
+  <template is="wxParser" data="{{wxParserData: richText.nodes}}" />
+</view>
